@@ -123,9 +123,7 @@ class ViewController: UIViewController {
         }
     }
     
-    //code 1
-    
-    fdgfgh
+  
     
     
     @objc private func gameTimeTick() {
@@ -162,4 +160,4 @@ class ViewController: UIViewController {
     
     
 }
-
+//
