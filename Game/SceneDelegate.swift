@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  PhotoSearch
+//  Game
 //
 //  Created by SummeR on 05.08.2020.
 //  Copyright © 2020 SummeR. All rights reserved.

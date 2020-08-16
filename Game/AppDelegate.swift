@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  PhotoSearch
+//  Game
 //
 //  Created by SummeR on 05.08.2020.
 //  Copyright © 2020 SummeR. All rights reserved.
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "PhotoSearch")
+        let container = NSPersistentContainer(name: "Game")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

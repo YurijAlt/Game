@@ -11,13 +11,13 @@
 		C4864E2524DB46DD00CB22CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4864E2424DB46DD00CB22CE /* SceneDelegate.swift */; };
 		C4864E2724DB46DD00CB22CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4864E2624DB46DD00CB22CE /* ViewController.swift */; };
 		C4864E2A24DB46DD00CB22CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4864E2824DB46DD00CB22CE /* Main.storyboard */; };
-		C4864E2D24DB46DD00CB22CE /* PhotoSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4864E2B24DB46DD00CB22CE /* PhotoSearch.xcdatamodeld */; };
+		C4864E2D24DB46DD00CB22CE /* Game.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4864E2B24DB46DD00CB22CE /* Game.xcdatamodeld */; };
 		C4864E2F24DB46E000CB22CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4864E2E24DB46E000CB22CE /* Assets.xcassets */; };
 		C4864E3224DB46E000CB22CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4864E3024DB46E000CB22CE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C4864E1F24DB46DD00CB22CE /* PhotoSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4864E1F24DB46DD00CB22CE /* Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4864E2224DB46DD00CB22CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4864E2424DB46DD00CB22CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C4864E2624DB46DD00CB22CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		C4864E1624DB46DD00CB22CE = {
 			isa = PBXGroup;
 			children = (
-				C4864E2124DB46DD00CB22CE /* PhotoSearch */,
+				C4864E2124DB46DD00CB22CE /* Game */,
 				C4864E2024DB46DD00CB22CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		C4864E2024DB46DD00CB22CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4864E1F24DB46DD00CB22CE /* PhotoSearch.app */,
+				C4864E1F24DB46DD00CB22CE /* Game.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4864E2124DB46DD00CB22CE /* PhotoSearch */ = {
+		C4864E2124DB46DD00CB22CE /* Game */ = {
 			isa = PBXGroup;
 			children = (
 				C4864E2224DB46DD00CB22CE /* AppDelegate.swift */,
@@ -65,17 +65,17 @@
 				C4864E2E24DB46E000CB22CE /* Assets.xcassets */,
 				C4864E3024DB46E000CB22CE /* LaunchScreen.storyboard */,
 				C4864E3324DB46E000CB22CE /* Info.plist */,
-				C4864E2B24DB46DD00CB22CE /* PhotoSearch.xcdatamodeld */,
+				C4864E2B24DB46DD00CB22CE /* Game.xcdatamodeld */,
 			);
-			path = PhotoSearch;
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4864E1E24DB46DD00CB22CE /* PhotoSearch */ = {
+		C4864E1E24DB46DD00CB22CE /* Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4864E3624DB46E000CB22CE /* Build configuration list for PBXNativeTarget "PhotoSearch" */;
+			buildConfigurationList = C4864E3624DB46E000CB22CE /* Build configuration list for PBXNativeTarget "Game" */;
 			buildPhases = (
 				C4864E1B24DB46DD00CB22CE /* Sources */,
 				C4864E1C24DB46DD00CB22CE /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PhotoSearch;
+			name = Game;
 			productName = PhotoSearch;
-			productReference = C4864E1F24DB46DD00CB22CE /* PhotoSearch.app */;
+			productReference = C4864E1F24DB46DD00CB22CE /* Game.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4864E1A24DB46DD00CB22CE /* Build configuration list for PBXProject "PhotoSearch" */;
+			buildConfigurationList = C4864E1A24DB46DD00CB22CE /* Build configuration list for PBXProject "Game" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4864E1E24DB46DD00CB22CE /* PhotoSearch */,
+				C4864E1E24DB46DD00CB22CE /* Game */,
 			);
 		};
 /* End PBXProject section */
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4864E2D24DB46DD00CB22CE /* PhotoSearch.xcdatamodeld in Sources */,
+				C4864E2D24DB46DD00CB22CE /* Game.xcdatamodeld in Sources */,
 				C4864E2724DB46DD00CB22CE /* ViewController.swift in Sources */,
 				C4864E2324DB46DD00CB22CE /* AppDelegate.swift in Sources */,
 				C4864E2524DB46DD00CB22CE /* SceneDelegate.swift in Sources */,
@@ -290,13 +290,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF2X2E877U;
-				INFOPLIST_FILE = PhotoSearch/Info.plist;
+				INFOPLIST_FILE = Game/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.PhotoSearch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Game";
+				PRODUCT_NAME = Game;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,13 +309,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MF2X2E877U;
-				INFOPLIST_FILE = PhotoSearch/Info.plist;
+				INFOPLIST_FILE = Game/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.PhotoSearch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "yura-chekalyuk.Game";
+				PRODUCT_NAME = Game;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -323,7 +325,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4864E1A24DB46DD00CB22CE /* Build configuration list for PBXProject "PhotoSearch" */ = {
+		C4864E1A24DB46DD00CB22CE /* Build configuration list for PBXProject "Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4864E3424DB46E000CB22CE /* Debug */,
@@ -332,7 +334,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4864E3624DB46E000CB22CE /* Build configuration list for PBXNativeTarget "PhotoSearch" */ = {
+		C4864E3624DB46E000CB22CE /* Build configuration list for PBXNativeTarget "Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4864E3724DB46E000CB22CE /* Debug */,
@@ -344,13 +346,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C4864E2B24DB46DD00CB22CE /* PhotoSearch.xcdatamodeld */ = {
+		C4864E2B24DB46DD00CB22CE /* Game.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				C4864E2C24DB46DD00CB22CE /* PhotoSearch.xcdatamodel */,
 			);
 			currentVersion = C4864E2C24DB46DD00CB22CE /* PhotoSearch.xcdatamodel */;
-			path = PhotoSearch.xcdatamodeld;
+			path = Game.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
